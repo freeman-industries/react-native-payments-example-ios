@@ -101,6 +101,13 @@ const METHOD_DATA = [
 			supportedNetworks: ['visa', 'mastercard', 'amex'],
 			countryCode: 'US',
 			currencyCode: 'USD',
+			// // uncomment this block to activate automatic Stripe tokenization.
+			// paymentMethodTokenizationParameters: {
+			// 	parameters: {
+			// 		gateway: 'stripe',
+			// 		'stripe:publishableKey': Config.STRIPE_KEY,
+			// 	},
+			// },
 		},
 	},
 ];
