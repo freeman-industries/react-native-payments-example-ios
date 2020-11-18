@@ -1,0 +1,1 @@
+../../../Stripe/Stripe/PublicHeaders/STPPaymentMethodBancontact.h

@@ -1,0 +1,6 @@
+module Pods_stripeiOS {
+  umbrella header "Pods-stripeiOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
