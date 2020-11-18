@@ -1,114 +1,161 @@
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
- *
- * @format
- * @flow strict-local
+ * @flow
  */
 
-import React from 'react';
-import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
-  View,
-  Text,
-  StatusBar,
-} from 'react-native';
+import React, { Component } from 'react';
+import { SafeAreaView, ScrollView, Text, TouchableOpacity, View } from 'react-native';
+import { ApplePayButton, PaymentRequest } from 'react-native-payments';
 
-import {
-  Header,
-  LearnMoreLinks,
-  Colors,
-  DebugInstructions,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+export default class App extends Component {
+	state = {
+		debug: ''
+	}
 
-const App: () => React$Node = () => {
-  return (
-    <>
-      <StatusBar barStyle="dark-content" />
-      <SafeAreaView>
-        <ScrollView
-          contentInsetAdjustmentBehavior="automatic"
-          style={styles.scrollView}>
-          <Header />
-          {global.HermesInternal == null ? null : (
-            <View style={styles.engine}>
-              <Text style={styles.footer}>Engine: Hermes</Text>
-            </View>
-          )}
-          <View style={styles.body}>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Step One</Text>
-              <Text style={styles.sectionDescription}>
-                Edit <Text style={styles.highlight}>App.js</Text> to change this
-                screen and then come back to see your edits.
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>See Your Changes</Text>
-              <Text style={styles.sectionDescription}>
-                <ReloadInstructions />
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Debug</Text>
-              <Text style={styles.sectionDescription}>
-                <DebugInstructions />
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Learn More</Text>
-              <Text style={styles.sectionDescription}>
-                Read the docs to discover what to do next:
-              </Text>
-            </View>
-            <LearnMoreLinks />
-          </View>
-        </ScrollView>
-      </SafeAreaView>
-    </>
-  );
+	debug = text => {
+		this.setState({
+			debug: text
+		})
+	}
+
+	showPaymentSheet = (succeed = true) => {
+		const paymentRequest = new PaymentRequest(METHOD_DATA, DETAILS);
+		paymentRequest.show().then(paymentResponse => {
+			if(succeed) {
+				paymentResponse.complete('success')
+				this.debug('Payment request completed');
+			} else {
+				paymentResponse.complete('failure')
+				this.debug('Payment request failed');
+			}
+		}).catch(error => {
+			if(error.message === 'AbortError') {
+				this.debug('Payment request was dismissed');
+			}
+		});
+	};
+
+	render() {
+		return (
+			<SafeAreaView style={styles.container}>
+				<ScrollView>
+					<Text style={styles.title}>
+						Native Apple Pay Button
+					</Text>
+					<ApplePayButton
+						type="plain"
+						style="black"
+						onPress={() => this.showPaymentSheet(true)}
+					/>
+					<Text style={styles.title}>
+						Any tappable component
+					</Text>
+					<TouchableOpacity
+						style={styles.button}
+						onPress={() => this.showPaymentSheet(true)}
+					>
+						<Text style={styles.buttonText}>
+							Tap me
+						</Text>
+					</TouchableOpacity>
+					<Text style={styles.title}>
+						Try an error...
+					</Text>
+					<TouchableOpacity
+						style={styles.button}
+						onPress={() => this.showPaymentSheet(false)}
+					>
+						<Text style={styles.buttonText}>
+							This will fail
+						</Text>
+					</TouchableOpacity>
+					<Text style={styles.title}>
+						What's next?
+					</Text>
+					<Text style={styles.details}>
+						Thanks for trying out react-native-payments! There are so many options you can pass to PaymentRequest, so check out the main documentation.
+					</Text>
+					<Text style={styles.details}>
+						You can also pass in paymentMethodTokenizationParameters to automatically convert the Apple Pay token to either Stripe or Braintree format.
+					</Text>
+					{
+						this.state.debug.length > 0
+						&& <View style={styles.debug}>
+							<Text style={styles.debugText}>
+								{this.state.debug}
+							</Text>
+						</View>
+					}
+				</ScrollView>
+			</SafeAreaView>
+		);
+	}
+}
+
+const METHOD_DATA = [
+	{
+		supportedMethods: ['apple-pay'],
+		data: {
+			merchantIdentifier: 'merchant.com.your-app.namespace',
+			supportedNetworks: ['visa', 'mastercard', 'amex'],
+			countryCode: 'US',
+			currencyCode: 'USD',
+		},
+	},
+];
+
+const DETAILS = {
+	id: 'basic-example',
+	displayItems: [
+		{
+			label: 'Movie Ticket',
+			amount: { currency: 'USD', value: '15.00' },
+		},
+	],
+	total: {
+		label: 'Freeman Industries',
+		amount: { currency: 'USD', value: '15.00' },
+	},
 };
 
-const styles = StyleSheet.create({
-  scrollView: {
-    backgroundColor: Colors.lighter,
-  },
-  engine: {
-    position: 'absolute',
-    right: 0,
-  },
-  body: {
-    backgroundColor: Colors.white,
-  },
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-    color: Colors.black,
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-    color: Colors.dark,
-  },
-  highlight: {
-    fontWeight: '700',
-  },
-  footer: {
-    color: Colors.dark,
-    fontSize: 12,
-    fontWeight: '600',
-    padding: 4,
-    paddingRight: 12,
-    textAlign: 'right',
-  },
-});
+const MARGIN = 20;
 
-export default App;
+const styles = {
+	container: {
+		margin: MARGIN,
+		flex: 1,
+		alignItems: 'stretch'
+	},
+	title: {
+		margin: MARGIN,
+		marginTop: MARGIN * 3 / 2,
+		color: '#4000FF',
+		fontSize: 24,
+		textAlign: 'center'
+	},
+	button: {
+		backgroundColor: '#4000FF',
+		padding: MARGIN,
+		alignItems: 'center'
+	},
+	buttonText: {
+		fontSize: 18,
+		color: '#FFFFFF',
+	},
+	debug: {
+		marginTop: 'auto',
+		backgroundColor: '#301139',
+		padding: MARGIN,
+		borderRadius: 3
+	},
+	debugText: {
+		textAlign: 'center',
+		color: '#FFFFFF',
+		fontFamily: 'Menlo',
+	},
+	details: {
+		marginBottom: MARGIN,
+		fontSize: 16
+	},
+}
