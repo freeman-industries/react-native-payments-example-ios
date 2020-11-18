@@ -22,9 +22,11 @@ export default class App extends Component {
 	showPaymentSheet = (succeed = true) => {
 		const paymentRequest = new PaymentRequest(METHOD_DATA, DETAILS);
 		paymentRequest.show().then(paymentResponse => {
+			const card_token = paymentResponse.details.paymentToken;
+
 			if(succeed) {
 				paymentResponse.complete('success')
-				this.debug('Payment request completed');
+				this.debug(`Payment request completed with card token ${card_token}`);
 			} else {
 				paymentResponse.complete('failure')
 				this.debug('Payment request failed');
