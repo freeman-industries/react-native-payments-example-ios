@@ -104,6 +104,7 @@ const METHOD_DATA = [
 			countryCode: 'US',
 			currencyCode: 'USD',
 			// // uncomment this block to activate automatic Stripe tokenization.
+			// // try putting your key pk_test... in here and see how the token format changes.
 			// paymentMethodTokenizationParameters: {
 			// 	parameters: {
 			// 		gateway: 'stripe',
