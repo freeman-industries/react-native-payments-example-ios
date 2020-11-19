@@ -10,7 +10,7 @@
   "dependencies": {
     "react": "16.13.1",
     "react-native": "0.63.3",
-    "react-native-payments": "git://github.com/freeman-industries/react-native-payments.git#master"
+    "react-native-payments": "0.8.0"
   },
   "devDependencies": {
     "@babel/core": "7.12.3",
