@@ -3,12 +3,12 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'stripeiOS' do
+target 'ReactNativePaymentsExampleiOS' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
 
-  target 'stripeiOSTests' do
+  target 'ReactNativePaymentsExampleiOSTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -23,10 +23,10 @@ target 'stripeiOS' do
   end
 end
 
-target 'stripeiOS-tvOS' do
-  # Pods for stripeiOS-tvOS
+target 'ReactNativePaymentsExampleiOS-tvOS' do
+  # Pods for ReactNativePaymentsExampleiOS-tvOS
 
-  target 'stripeiOS-tvOSTests' do
+  target 'ReactNativePaymentsExampleiOS-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

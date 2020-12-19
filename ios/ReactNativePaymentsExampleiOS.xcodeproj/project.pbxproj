@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* stripeiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* stripeiOSTests.m */; };
+		00E356F31AD99517003FC87E /* ReactNativePaymentsExampleiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactNativePaymentsExampleiOSTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2018520EDF4ABDE1812C1D72 /* libPods-stripeiOS-stripeiOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ECB49B5E56BCC28AC9E2AF5 /* libPods-stripeiOS-stripeiOSTests.a */; };
+		2018520EDF4ABDE1812C1D72 /* libPods-ReactNativePaymentsExampleiOS-ReactNativePaymentsExampleiOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ECB49B5E56BCC28AC9E2AF5 /* libPods-ReactNativePaymentsExampleiOS-ReactNativePaymentsExampleiOSTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* stripeiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* stripeiOSTests.m */; };
-		34287E88B5726965E6FDD83C /* libPods-stripeiOS-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD0028E72E1A2EDB4B33F7B /* libPods-stripeiOS-tvOSTests.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* ReactNativePaymentsExampleiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactNativePaymentsExampleiOSTests.m */; };
+		34287E88B5726965E6FDD83C /* libPods-ReactNativePaymentsExampleiOS-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD0028E72E1A2EDB4B33F7B /* libPods-ReactNativePaymentsExampleiOS-tvOSTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		AB84E1262804C1EEC5AEB37D /* libPods-stripeiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9F44DC45377BE9B9C18783 /* libPods-stripeiOS.a */; };
-		F1707F10BD45B55700AA7A0C /* libPods-stripeiOS-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FEBD3A0D83415C9C4FA8CB3 /* libPods-stripeiOS-tvOS.a */; };
+		AB84E1262804C1EEC5AEB37D /* libPods-ReactNativePaymentsExampleiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9F44DC45377BE9B9C18783 /* libPods-ReactNativePaymentsExampleiOS.a */; };
+		F1707F10BD45B55700AA7A0C /* libPods-ReactNativePaymentsExampleiOS-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FEBD3A0D83415C9C4FA8CB3 /* libPods-ReactNativePaymentsExampleiOS-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,43 +28,43 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = stripeiOS;
+			remoteInfo = ReactNativePaymentsExampleiOS;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "stripeiOS-tvOS";
+			remoteInfo = "ReactNativePaymentsExampleiOS-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* stripeiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stripeiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* ReactNativePaymentsExampleiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactNativePaymentsExampleiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* stripeiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = stripeiOSTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* stripeiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stripeiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = stripeiOS/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = stripeiOS/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = stripeiOS/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = stripeiOS/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = stripeiOS/main.m; sourceTree = "<group>"; };
-		1FDF88438800143CB27BAB91 /* Pods-stripeiOS-stripeiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stripeiOS-stripeiOSTests.debug.xcconfig"; path = "Target Support Files/Pods-stripeiOS-stripeiOSTests/Pods-stripeiOS-stripeiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* stripeiOS-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "stripeiOS-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* stripeiOS-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "stripeiOS-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2ECB49B5E56BCC28AC9E2AF5 /* libPods-stripeiOS-stripeiOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-stripeiOS-stripeiOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FEBD3A0D83415C9C4FA8CB3 /* libPods-stripeiOS-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-stripeiOS-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A2D9AA7A4F7B16063CCFFF9 /* Pods-stripeiOS-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stripeiOS-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-stripeiOS-tvOSTests/Pods-stripeiOS-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		3B95956FEA077D5838778AA9 /* Pods-stripeiOS-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stripeiOS-tvOS.release.xcconfig"; path = "Target Support Files/Pods-stripeiOS-tvOS/Pods-stripeiOS-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		411976D5B47F457D2C9617E4 /* Pods-stripeiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stripeiOS.release.xcconfig"; path = "Target Support Files/Pods-stripeiOS/Pods-stripeiOS.release.xcconfig"; sourceTree = "<group>"; };
-		573DAB75415D4F3185A1DDE6 /* Pods-stripeiOS-stripeiOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stripeiOS-stripeiOSTests.release.xcconfig"; path = "Target Support Files/Pods-stripeiOS-stripeiOSTests/Pods-stripeiOS-stripeiOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		6738BD68FDB765FCEE8A3B65 /* Pods-stripeiOS-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stripeiOS-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-stripeiOS-tvOS/Pods-stripeiOS-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		75B7F8DB3D02DB4B32FAE5E9 /* Pods-stripeiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stripeiOS.debug.xcconfig"; path = "Target Support Files/Pods-stripeiOS/Pods-stripeiOS.debug.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = stripeiOS/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DB9F44DC45377BE9B9C18783 /* libPods-stripeiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-stripeiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC31542074FED1535717DD8A /* Pods-stripeiOS-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stripeiOS-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-stripeiOS-tvOSTests/Pods-stripeiOS-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		ECD0028E72E1A2EDB4B33F7B /* libPods-stripeiOS-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-stripeiOS-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F21AD99517003FC87E /* ReactNativePaymentsExampleiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNativePaymentsExampleiOSTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* ReactNativePaymentsExampleiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNativePaymentsExampleiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ReactNativePaymentsExampleiOS/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ReactNativePaymentsExampleiOS/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ReactNativePaymentsExampleiOS/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ReactNativePaymentsExampleiOS/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ReactNativePaymentsExampleiOS/main.m; sourceTree = "<group>"; };
+		1FDF88438800143CB27BAB91 /* Pods-ReactNativePaymentsExampleiOS-ReactNativePaymentsExampleiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativePaymentsExampleiOS-ReactNativePaymentsExampleiOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativePaymentsExampleiOS-ReactNativePaymentsExampleiOSTests/Pods-ReactNativePaymentsExampleiOS-ReactNativePaymentsExampleiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* ReactNativePaymentsExampleiOS-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReactNativePaymentsExampleiOS-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* ReactNativePaymentsExampleiOS-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReactNativePaymentsExampleiOS-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ECB49B5E56BCC28AC9E2AF5 /* libPods-ReactNativePaymentsExampleiOS-ReactNativePaymentsExampleiOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativePaymentsExampleiOS-ReactNativePaymentsExampleiOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FEBD3A0D83415C9C4FA8CB3 /* libPods-ReactNativePaymentsExampleiOS-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativePaymentsExampleiOS-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A2D9AA7A4F7B16063CCFFF9 /* Pods-ReactNativePaymentsExampleiOS-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativePaymentsExampleiOS-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativePaymentsExampleiOS-tvOSTests/Pods-ReactNativePaymentsExampleiOS-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B95956FEA077D5838778AA9 /* Pods-ReactNativePaymentsExampleiOS-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativePaymentsExampleiOS-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ReactNativePaymentsExampleiOS-tvOS/Pods-ReactNativePaymentsExampleiOS-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		411976D5B47F457D2C9617E4 /* Pods-ReactNativePaymentsExampleiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativePaymentsExampleiOS.release.xcconfig"; path = "Target Support Files/Pods-ReactNativePaymentsExampleiOS/Pods-ReactNativePaymentsExampleiOS.release.xcconfig"; sourceTree = "<group>"; };
+		573DAB75415D4F3185A1DDE6 /* Pods-ReactNativePaymentsExampleiOS-ReactNativePaymentsExampleiOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativePaymentsExampleiOS-ReactNativePaymentsExampleiOSTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativePaymentsExampleiOS-ReactNativePaymentsExampleiOSTests/Pods-ReactNativePaymentsExampleiOS-ReactNativePaymentsExampleiOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		6738BD68FDB765FCEE8A3B65 /* Pods-ReactNativePaymentsExampleiOS-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativePaymentsExampleiOS-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativePaymentsExampleiOS-tvOS/Pods-ReactNativePaymentsExampleiOS-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		75B7F8DB3D02DB4B32FAE5E9 /* Pods-ReactNativePaymentsExampleiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativePaymentsExampleiOS.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativePaymentsExampleiOS/Pods-ReactNativePaymentsExampleiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ReactNativePaymentsExampleiOS/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB9F44DC45377BE9B9C18783 /* libPods-ReactNativePaymentsExampleiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativePaymentsExampleiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC31542074FED1535717DD8A /* Pods-ReactNativePaymentsExampleiOS-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativePaymentsExampleiOS-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativePaymentsExampleiOS-tvOSTests/Pods-ReactNativePaymentsExampleiOS-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		ECD0028E72E1A2EDB4B33F7B /* libPods-ReactNativePaymentsExampleiOS-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativePaymentsExampleiOS-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2018520EDF4ABDE1812C1D72 /* libPods-stripeiOS-stripeiOSTests.a in Frameworks */,
+				2018520EDF4ABDE1812C1D72 /* libPods-ReactNativePaymentsExampleiOS-ReactNativePaymentsExampleiOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB84E1262804C1EEC5AEB37D /* libPods-stripeiOS.a in Frameworks */,
+				AB84E1262804C1EEC5AEB37D /* libPods-ReactNativePaymentsExampleiOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1707F10BD45B55700AA7A0C /* libPods-stripeiOS-tvOS.a in Frameworks */,
+				F1707F10BD45B55700AA7A0C /* libPods-ReactNativePaymentsExampleiOS-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34287E88B5726965E6FDD83C /* libPods-stripeiOS-tvOSTests.a in Frameworks */,
+				34287E88B5726965E6FDD83C /* libPods-ReactNativePaymentsExampleiOS-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* stripeiOSTests */ = {
+		00E356EF1AD99517003FC87E /* ReactNativePaymentsExampleiOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* stripeiOSTests.m */,
+				00E356F21AD99517003FC87E /* ReactNativePaymentsExampleiOSTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = stripeiOSTests;
+			path = ReactNativePaymentsExampleiOSTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* stripeiOS */ = {
+		13B07FAE1A68108700A75B9A /* ReactNativePaymentsExampleiOS */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +133,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = stripeiOS;
+			name = ReactNativePaymentsExampleiOS;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				DB9F44DC45377BE9B9C18783 /* libPods-stripeiOS.a */,
-				2ECB49B5E56BCC28AC9E2AF5 /* libPods-stripeiOS-stripeiOSTests.a */,
-				2FEBD3A0D83415C9C4FA8CB3 /* libPods-stripeiOS-tvOS.a */,
-				ECD0028E72E1A2EDB4B33F7B /* libPods-stripeiOS-tvOSTests.a */,
+				DB9F44DC45377BE9B9C18783 /* libPods-ReactNativePaymentsExampleiOS.a */,
+				2ECB49B5E56BCC28AC9E2AF5 /* libPods-ReactNativePaymentsExampleiOS-ReactNativePaymentsExampleiOSTests.a */,
+				2FEBD3A0D83415C9C4FA8CB3 /* libPods-ReactNativePaymentsExampleiOS-tvOS.a */,
+				ECD0028E72E1A2EDB4B33F7B /* libPods-ReactNativePaymentsExampleiOS-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,9 +159,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* stripeiOS */,
+				13B07FAE1A68108700A75B9A /* ReactNativePaymentsExampleiOS */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* stripeiOSTests */,
+				00E356EF1AD99517003FC87E /* ReactNativePaymentsExampleiOSTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				E896B651C88259FDB91EEF1F /* Pods */,
@@ -174,10 +174,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* stripeiOS.app */,
-				00E356EE1AD99517003FC87E /* stripeiOSTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* stripeiOS-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* stripeiOS-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* ReactNativePaymentsExampleiOS.app */,
+				00E356EE1AD99517003FC87E /* ReactNativePaymentsExampleiOSTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* ReactNativePaymentsExampleiOS-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* ReactNativePaymentsExampleiOS-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,25 +185,24 @@
 		E896B651C88259FDB91EEF1F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				75B7F8DB3D02DB4B32FAE5E9 /* Pods-stripeiOS.debug.xcconfig */,
-				411976D5B47F457D2C9617E4 /* Pods-stripeiOS.release.xcconfig */,
-				1FDF88438800143CB27BAB91 /* Pods-stripeiOS-stripeiOSTests.debug.xcconfig */,
-				573DAB75415D4F3185A1DDE6 /* Pods-stripeiOS-stripeiOSTests.release.xcconfig */,
-				6738BD68FDB765FCEE8A3B65 /* Pods-stripeiOS-tvOS.debug.xcconfig */,
-				3B95956FEA077D5838778AA9 /* Pods-stripeiOS-tvOS.release.xcconfig */,
-				3A2D9AA7A4F7B16063CCFFF9 /* Pods-stripeiOS-tvOSTests.debug.xcconfig */,
-				DC31542074FED1535717DD8A /* Pods-stripeiOS-tvOSTests.release.xcconfig */,
+				75B7F8DB3D02DB4B32FAE5E9 /* Pods-ReactNativePaymentsExampleiOS.debug.xcconfig */,
+				411976D5B47F457D2C9617E4 /* Pods-ReactNativePaymentsExampleiOS.release.xcconfig */,
+				1FDF88438800143CB27BAB91 /* Pods-ReactNativePaymentsExampleiOS-ReactNativePaymentsExampleiOSTests.debug.xcconfig */,
+				573DAB75415D4F3185A1DDE6 /* Pods-ReactNativePaymentsExampleiOS-ReactNativePaymentsExampleiOSTests.release.xcconfig */,
+				6738BD68FDB765FCEE8A3B65 /* Pods-ReactNativePaymentsExampleiOS-tvOS.debug.xcconfig */,
+				3B95956FEA077D5838778AA9 /* Pods-ReactNativePaymentsExampleiOS-tvOS.release.xcconfig */,
+				3A2D9AA7A4F7B16063CCFFF9 /* Pods-ReactNativePaymentsExampleiOS-tvOSTests.debug.xcconfig */,
+				DC31542074FED1535717DD8A /* Pods-ReactNativePaymentsExampleiOS-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* stripeiOSTests */ = {
+		00E356ED1AD99517003FC87E /* ReactNativePaymentsExampleiOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "stripeiOSTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReactNativePaymentsExampleiOSTests" */;
 			buildPhases = (
 				D765587FF776264A94F8864B /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -216,14 +215,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = stripeiOSTests;
-			productName = stripeiOSTests;
-			productReference = 00E356EE1AD99517003FC87E /* stripeiOSTests.xctest */;
+			name = ReactNativePaymentsExampleiOSTests;
+			productName = ReactNativePaymentsExampleiOSTests;
+			productReference = 00E356EE1AD99517003FC87E /* ReactNativePaymentsExampleiOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* stripeiOS */ = {
+		13B07F861A680F5B00A75B9A /* ReactNativePaymentsExampleiOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "stripeiOS" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactNativePaymentsExampleiOS" */;
 			buildPhases = (
 				FC44BE910D737A5BF674CC5F /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -237,14 +236,14 @@
 			);
 			dependencies = (
 			);
-			name = stripeiOS;
-			productName = stripeiOS;
-			productReference = 13B07F961A680F5B00A75B9A /* stripeiOS.app */;
+			name = ReactNativePaymentsExampleiOS;
+			productName = ReactNativePaymentsExampleiOS;
+			productReference = 13B07F961A680F5B00A75B9A /* ReactNativePaymentsExampleiOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* stripeiOS-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* ReactNativePaymentsExampleiOS-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "stripeiOS-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ReactNativePaymentsExampleiOS-tvOS" */;
 			buildPhases = (
 				4D2E214DD6179EBCC82560DD /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -257,14 +256,14 @@
 			);
 			dependencies = (
 			);
-			name = "stripeiOS-tvOS";
-			productName = "stripeiOS-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* stripeiOS-tvOS.app */;
+			name = "ReactNativePaymentsExampleiOS-tvOS";
+			productName = "ReactNativePaymentsExampleiOS-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* ReactNativePaymentsExampleiOS-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* stripeiOS-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* ReactNativePaymentsExampleiOS-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "stripeiOS-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ReactNativePaymentsExampleiOS-tvOSTests" */;
 			buildPhases = (
 				B435B1355D29B731B2E3717C /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -276,9 +275,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "stripeiOS-tvOSTests";
-			productName = "stripeiOS-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* stripeiOS-tvOSTests.xctest */;
+			name = "ReactNativePaymentsExampleiOS-tvOSTests";
+			productName = "ReactNativePaymentsExampleiOS-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* ReactNativePaymentsExampleiOS-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -307,7 +306,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "stripeiOS" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ReactNativePaymentsExampleiOS" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -320,10 +319,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* stripeiOS */,
-				00E356ED1AD99517003FC87E /* stripeiOSTests */,
-				2D02E47A1E0B4A5D006451C7 /* stripeiOS-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* stripeiOS-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* ReactNativePaymentsExampleiOS */,
+				00E356ED1AD99517003FC87E /* ReactNativePaymentsExampleiOSTests */,
+				2D02E47A1E0B4A5D006451C7 /* ReactNativePaymentsExampleiOS-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* ReactNativePaymentsExampleiOS-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -397,7 +396,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-stripeiOS/Pods-stripeiOS-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativePaymentsExampleiOS/Pods-ReactNativePaymentsExampleiOS-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 				"${PODS_ROOT}/Stripe/InternalFrameworks/Stripe3DS2.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/Stripe/Stripe.bundle",
@@ -410,7 +409,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-stripeiOS/Pods-stripeiOS-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativePaymentsExampleiOS/Pods-ReactNativePaymentsExampleiOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4D2E214DD6179EBCC82560DD /* [CP] Check Pods Manifest.lock */ = {
@@ -428,7 +427,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-stripeiOS-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ReactNativePaymentsExampleiOS-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -441,7 +440,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-stripeiOS-stripeiOSTests/Pods-stripeiOS-stripeiOSTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativePaymentsExampleiOS-ReactNativePaymentsExampleiOSTests/Pods-ReactNativePaymentsExampleiOS-ReactNativePaymentsExampleiOSTests-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 				"${PODS_ROOT}/Stripe/InternalFrameworks/Stripe3DS2.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/Stripe/Stripe.bundle",
@@ -454,7 +453,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-stripeiOS-stripeiOSTests/Pods-stripeiOS-stripeiOSTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativePaymentsExampleiOS-ReactNativePaymentsExampleiOSTests/Pods-ReactNativePaymentsExampleiOS-ReactNativePaymentsExampleiOSTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B435B1355D29B731B2E3717C /* [CP] Check Pods Manifest.lock */ = {
@@ -472,7 +471,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-stripeiOS-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ReactNativePaymentsExampleiOS-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -494,7 +493,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-stripeiOS-stripeiOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ReactNativePaymentsExampleiOS-ReactNativePaymentsExampleiOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -516,7 +515,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-stripeiOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ReactNativePaymentsExampleiOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -568,7 +567,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* stripeiOSTests.m in Sources */,
+				00E356F31AD99517003FC87E /* ReactNativePaymentsExampleiOSTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,7 +593,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* stripeiOSTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* ReactNativePaymentsExampleiOSTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -603,12 +602,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* stripeiOS */;
+			target = 13B07F861A680F5B00A75B9A /* ReactNativePaymentsExampleiOS */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* stripeiOS-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* ReactNativePaymentsExampleiOS-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -616,14 +615,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FDF88438800143CB27BAB91 /* Pods-stripeiOS-stripeiOSTests.debug.xcconfig */;
+			baseConfigurationReference = 1FDF88438800143CB27BAB91 /* Pods-ReactNativePaymentsExampleiOS-ReactNativePaymentsExampleiOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = stripeiOSTests/Info.plist;
+				INFOPLIST_FILE = ReactNativePaymentsExampleiOSTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -633,17 +632,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stripeiOS.app/stripeiOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativePaymentsExampleiOS.app/ReactNativePaymentsExampleiOS";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 573DAB75415D4F3185A1DDE6 /* Pods-stripeiOS-stripeiOSTests.release.xcconfig */;
+			baseConfigurationReference = 573DAB75415D4F3185A1DDE6 /* Pods-ReactNativePaymentsExampleiOS-ReactNativePaymentsExampleiOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = stripeiOSTests/Info.plist;
+				INFOPLIST_FILE = ReactNativePaymentsExampleiOSTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -653,27 +652,27 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stripeiOS.app/stripeiOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativePaymentsExampleiOS.app/ReactNativePaymentsExampleiOS";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75B7F8DB3D02DB4B32FAE5E9 /* Pods-stripeiOS.debug.xcconfig */;
+			baseConfigurationReference = 75B7F8DB3D02DB4B32FAE5E9 /* Pods-ReactNativePaymentsExampleiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = stripeiOS/Info.plist;
+				INFOPLIST_FILE = ReactNativePaymentsExampleiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = stripeiOS;
+				PRODUCT_BUNDLE_IDENTIFIER = freeman.industries.reactnativepaymentsexampleios;
+				PRODUCT_NAME = ReactNativePaymentsExampleiOS;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -682,20 +681,20 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 411976D5B47F457D2C9617E4 /* Pods-stripeiOS.release.xcconfig */;
+			baseConfigurationReference = 411976D5B47F457D2C9617E4 /* Pods-ReactNativePaymentsExampleiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = stripeiOS/Info.plist;
+				INFOPLIST_FILE = ReactNativePaymentsExampleiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = stripeiOS;
+				PRODUCT_BUNDLE_IDENTIFIER = freeman.industries.reactnativepaymentsexampleios;
+				PRODUCT_NAME = ReactNativePaymentsExampleiOS;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -703,7 +702,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6738BD68FDB765FCEE8A3B65 /* Pods-stripeiOS-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 6738BD68FDB765FCEE8A3B65 /* Pods-ReactNativePaymentsExampleiOS-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -714,14 +713,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "stripeiOS-tvOS/Info.plist";
+				INFOPLIST_FILE = "ReactNativePaymentsExampleiOS-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.stripeiOS-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.ReactNativePaymentsExampleiOS-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -731,7 +730,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B95956FEA077D5838778AA9 /* Pods-stripeiOS-tvOS.release.xcconfig */;
+			baseConfigurationReference = 3B95956FEA077D5838778AA9 /* Pods-ReactNativePaymentsExampleiOS-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -742,14 +741,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "stripeiOS-tvOS/Info.plist";
+				INFOPLIST_FILE = "ReactNativePaymentsExampleiOS-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.stripeiOS-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.ReactNativePaymentsExampleiOS-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -759,7 +758,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A2D9AA7A4F7B16063CCFFF9 /* Pods-stripeiOS-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 3A2D9AA7A4F7B16063CCFFF9 /* Pods-ReactNativePaymentsExampleiOS-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -769,24 +768,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "stripeiOS-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "ReactNativePaymentsExampleiOS-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.stripeiOS-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.ReactNativePaymentsExampleiOS-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stripeiOS-tvOS.app/stripeiOS-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativePaymentsExampleiOS-tvOS.app/ReactNativePaymentsExampleiOS-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC31542074FED1535717DD8A /* Pods-stripeiOS-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = DC31542074FED1535717DD8A /* Pods-ReactNativePaymentsExampleiOS-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -796,17 +795,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "stripeiOS-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "ReactNativePaymentsExampleiOS-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.stripeiOS-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.ReactNativePaymentsExampleiOS-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stripeiOS-tvOS.app/stripeiOS-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativePaymentsExampleiOS-tvOS.app/ReactNativePaymentsExampleiOS-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -927,7 +926,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "stripeiOSTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReactNativePaymentsExampleiOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -936,7 +935,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "stripeiOS" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactNativePaymentsExampleiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -945,7 +944,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "stripeiOS-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ReactNativePaymentsExampleiOS-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -954,7 +953,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "stripeiOS-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ReactNativePaymentsExampleiOS-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -963,7 +962,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "stripeiOS" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ReactNativePaymentsExampleiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

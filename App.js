@@ -22,6 +22,8 @@ export default class App extends Component {
 	showPaymentSheet = (succeed = true) => {
 		const paymentRequest = new PaymentRequest(METHOD_DATA, DETAILS);
 		paymentRequest.show().then(paymentResponse => {
+			console.log(paymentResponse);
+
 			const card_token = paymentResponse.details.paymentToken;
 
 			if(succeed) {
@@ -113,7 +115,7 @@ const METHOD_DATA = [
 			// paymentMethodTokenizationParameters: {
 			// 	parameters: {
 			// 		gateway: 'stripe',
-			// 		'stripe:publishableKey': Config.STRIPE_KEY,
+			// 		'stripe:publishableKey': 'pk_test_ncOWteIpNgvg58VnRvkh1fDc',
 			// 	},
 			// },
 
@@ -123,7 +125,7 @@ const METHOD_DATA = [
 			// paymentMethodTokenizationParameters: {
 			// 	parameters: {
 			// 		gateway: 'braintree',
-			// 		'braintree:tokenizationKey': Config.BRAINTREE_KEY,
+			// 		'braintree:tokenizationKey': 'sandbox_gphynpy9_ztqjymm68kf27vv2',
 			// 	},
 			// },
 		},

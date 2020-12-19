@@ -26,6 +26,10 @@ Most people add Stripe / Braintree tokenization as a next step.
 <img width="300px" src="https://user-images.githubusercontent.com/2470659/99592430-1f58d900-29e8-11eb-816e-ea8ef297c598.png" />
 </div>
 
+# Wait.. My card token is undefined!
+
+That's because inside `App.js` the Merchant ID has been set to `merchant.com.your-app.namespace`, which isn't a real one.
+
 # Stripe
 
 Just add this block to your `config` object:
