@@ -1,1 +1,0 @@
-../../../Braintree/BraintreeCore/BTPreferredPaymentMethodsResult_Internal.h

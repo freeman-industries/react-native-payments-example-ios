@@ -1,1 +1,0 @@
-../../../Braintree/BraintreePayPal/PayPalOneTouch/Configuration/PPDefaultConfigurationJSON.h

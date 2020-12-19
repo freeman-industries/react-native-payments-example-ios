@@ -1,6 +1,0 @@
-module Pods_stripeiOS_stripeiOSTests {
-  umbrella header "Pods-stripeiOS-stripeiOSTests-umbrella.h"
-
-  export *
-  module * { export * }
-}

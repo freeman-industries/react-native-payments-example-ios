@@ -1,1 +1,0 @@
-../../../Braintree/BraintreeCard/BTAuthenticationInsight_Internal.h

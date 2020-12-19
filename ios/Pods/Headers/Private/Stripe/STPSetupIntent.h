@@ -1,1 +1,0 @@
-../../../Stripe/Stripe/PublicHeaders/STPSetupIntent.h
