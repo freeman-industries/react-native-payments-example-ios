@@ -103,12 +103,24 @@ const METHOD_DATA = [
 			supportedNetworks: ['visa', 'mastercard', 'amex'],
 			countryCode: 'US',
 			currencyCode: 'USD',
+			
+			// // S T R I P E    S U P P O R T
 			// // uncomment this block to activate automatic Stripe tokenization.
 			// // try putting your key pk_test... in here and see how the token format changes.
 			// paymentMethodTokenizationParameters: {
 			// 	parameters: {
 			// 		gateway: 'stripe',
 			// 		'stripe:publishableKey': Config.STRIPE_KEY,
+			// 	},
+			// },
+
+			// // B R A I N T R E E    S U P P O R T
+			// // uncomment this block to activate automatic Braintree tokenization.
+			// // try putting your key sandbox_asdfghjkl... in here and see how the token format changes.
+			// paymentMethodTokenizationParameters: {
+			// 	parameters: {
+			// 		gateway: 'braintree',
+			// 		'braintree:tokenizationKey': Config.BRAINTREE_KEY,
 			// 	},
 			// },
 		},
