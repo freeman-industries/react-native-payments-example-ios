@@ -99,6 +99,9 @@ const METHOD_DATA = [
 	{
 		supportedMethods: ['apple-pay'],
 		data: {
+			// You need to change this Merchant ID to get a token out of Apple Pay.
+			// There is no way around this - you need an Apple Developer account!
+			// There are more instructions in the react-native-payments README.
 			merchantIdentifier: 'merchant.com.your-app.namespace',
 			supportedNetworks: ['visa', 'mastercard', 'amex'],
 			countryCode: 'US',
