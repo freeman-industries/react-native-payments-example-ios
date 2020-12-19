@@ -1,3 +1,4 @@
 node_modules
 ios/Pods
 .DS_Store
+xcuserdata
