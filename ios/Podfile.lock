@@ -1,27 +1,8 @@
 PODS:
   - boost-for-react-native (1.63.0)
-  - Braintree (4.36.0):
-    - Braintree/Card (= 4.36.0)
-    - Braintree/Core (= 4.36.0)
-    - Braintree/PayPal (= 4.36.0)
-    - Braintree/UI (= 4.36.0)
-  - Braintree/Card (4.36.0):
+  - Braintree/Apple-Pay (4.36.0):
     - Braintree/Core
   - Braintree/Core (4.36.0)
-  - Braintree/PayPal (4.36.0):
-    - Braintree/Core
-    - Braintree/PayPalOneTouch
-  - Braintree/PayPalDataCollector (4.36.0):
-    - Braintree/Core
-    - Braintree/PayPalUtils
-  - Braintree/PayPalOneTouch (4.36.0):
-    - Braintree/Core
-    - Braintree/PayPalDataCollector
-    - Braintree/PayPalUtils
-  - Braintree/PayPalUtils (4.36.0)
-  - Braintree/UI (4.36.0):
-    - Braintree/Card
-    - Braintree/Core
   - CocoaAsyncSocket (7.6.4)
   - CocoaLibEvent (1.0.0)
   - DoubleConversion (1.1.6)
@@ -259,7 +240,7 @@ PODS:
     - React-jsi (= 0.63.3)
   - React-jsinspector (0.63.3)
   - react-native-payments (0.8.0):
-    - Braintree
+    - Braintree/Apple-Pay
     - React
     - Stripe
   - React-RCTActionSheet (0.63.3):
@@ -378,9 +359,8 @@ DEPENDENCIES:
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - boost-for-react-native
-    - Braintree
     - CocoaAsyncSocket
     - CocoaLibEvent
     - Flipper
@@ -393,6 +373,8 @@ SPEC REPOS:
     - OpenSSL-Universal
     - Stripe
     - YogaKit
+  trunk:
+    - Braintree
 
 EXTERNAL SOURCES:
   DoubleConversion:
@@ -478,7 +460,7 @@ SPEC CHECKSUMS:
   React-jsi: df07aa95b39c5be3e41199921509bfa929ed2b9d
   React-jsiexecutor: b56c03e61c0dd5f5801255f2160a815f4a53d451
   React-jsinspector: 8e68ffbfe23880d3ee9bafa8be2777f60b25cbe2
-  react-native-payments: 6cf48635ccb53d27fb1a64b730c05e79b899e42f
+  react-native-payments: 9db7ad54d82fe70a936d97f464e3f0a6be92c7cd
   React-RCTActionSheet: 53ea72699698b0b47a6421cb1c8b4ab215a774aa
   React-RCTAnimation: 1befece0b5183c22ae01b966f5583f42e69a83c2
   React-RCTBlob: 0b284339cbe4b15705a05e2313a51c6d8b51fa40
@@ -495,4 +477,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 220adf22290ac2172561c4a55d3c2ad53b5d286f
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.10.0
